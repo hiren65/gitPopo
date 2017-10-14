@@ -1,0 +1,12 @@
+Show/Hide Hidden Files the Long Way
+
+The long way to show hidden Mac OS X files is as follows:
+Open Terminal found in Finder > Applications > Utilities
+In Terminal, paste the following: defaults write com.apple.finder AppleShowAllFiles YES
+Press return
+Hold the ‘Option/alt’ key, then right click on the Finder icon in the dock and click Relaunch.
+Relaunch Finder by right clicking the Finder Icon whilst holding the `option/alt` key
+Relaunch Finder by right clicking the Finder Icon whilst holding the ‘Option/alt’ key
+This will show all hidden files. To hide them again, follow the same steps but replace the Terminal command with:
+defaults write com.apple.finder AppleShowAllFiles NO
+It’s not the longest set of instructions or the biggest command to commit to memory but if you’re doing this a lot, it’s worth spending a few minutes now to save yourself a lot more time in the future.
