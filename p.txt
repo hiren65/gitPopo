@@ -47,4 +47,34 @@ rm -r .git
 
 nano fileName
 
+//if you create folder inside project folder and file inside
+
+mkdir folderName
+
+//change working folder
+
+cd folderName
+
+//create file
+
+touch fileName
+
+//come back to project root dir
+
+cd ..
+
+// now add folder and its file
+
+git add folder/file
+
+//commit
+
+git commit -m "message "
+
+//remote commit
+
+git push —force origin master
+
+
+
  
