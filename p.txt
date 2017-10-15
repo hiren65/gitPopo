@@ -75,6 +75,10 @@ git commit -m "message "
 
 git push —force origin master
 
+//if you want to add user name and email that shows who has made change
+
+git config -global user.name "my Name"
+git config —global user.email "xyz@email.com"
 
 
  
