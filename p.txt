@@ -80,5 +80,13 @@ git push —force origin master
 git config -global user.name "my Name"
 git config —global user.email "xyz@email.com"
 
+// if you commit more than you store more detailed project history
+//to observe history of project commit 
+
+git log
+//noe to exit git log 
+
+press 'q'
+
 
  
