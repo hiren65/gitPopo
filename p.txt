@@ -88,5 +88,31 @@ git log
 
 press 'q'
 
+// if you want to branch from master (trunk) 
 
- 
+git branch nameOfBranch
+
+//after creating branch if you want to check in what branch we are
+
+git status
+
+//if you want to go to new branch
+
+git checkout nameOfBranch
+
+// check git status you see branch name
+
+// if you want to create new branch and switch to new branch
+
+git checkout -b newBranch
+
+//now see git status that shows new working branch newBranch
+//if you want to see list of all branch exist in project
+
+git branch
+
+//if you want to delete branch then
+
+git branch -D nameOfBranch
+
+//if you are in to same branch that you want to delete than you can not delete it. you have to go to master branch then enter alone command
