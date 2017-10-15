@@ -10,3 +10,28 @@ Relaunch Finder by right clicking the Finder Icon whilst holding the ‘Option/a
 This will show all hidden files. To hide them again, follow the same steps but replace the Terminal command with:
 defaults write com.apple.finder AppleShowAllFiles NO
 It’s not the longest set of instructions or the biggest command to commit to memory but if you’re doing this a lot, it’s worth spending a few minutes now to save yourself a lot more time in the future.
+
+How to start to git
+
+//In the folder where project files placed.
+
+git init
+
+// show git status
+
+git status
+
+//that displays nothing to commit, working tree clean
+//Now to create file and enter above command and you get untraced file status.
+
+//Now start add file in git
+
+git add fileName
+
+//you will  see in git status file added.
+
+//Now modify file and see git status then you see notified: fileName in red color.
+
+
+
+ 
