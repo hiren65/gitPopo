@@ -12,10 +12,17 @@ defaults write com.apple.finder AppleShowAllFiles NO
 It’s not the longest set of instructions or the biggest command to commit to memory but if you’re doing this a lot, it’s worth spending a few minutes now to save yourself a lot more time in the future.
 
 How to start to git
+//hoe to install git software in MAC
+
+sudo apt-get install git
 
 //In the folder where project files placed.
 
 git init
+
+//if you want to create folder and initiate git
+
+git init myFolderProject
 
 // show git status
 
@@ -32,6 +39,12 @@ git add fileName
 
 //Now modify file and see git status then you see notified: fileName in red color.
 
+// if you want to remove file .git
+rm -r .git
 
+
+//if you want to edit read text file from terminal command
+
+nano fileName
 
  
