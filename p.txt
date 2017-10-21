@@ -116,3 +116,20 @@ git branch
 git branch -D nameOfBranch
 
 //if you are in to same branch that you want to delete than you can not delete it. you have to go to master branch then enter alone command
+
+//in short code summary
+// …or create a new repository on the command line
+
+echo "# guess_number" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/hiren65/guess_number.git
+git push -u origin master
+
+// …or push an existing repository from the command line
+git remote add origin https://github.com/hiren65/guess_number.git
+git push -u origin master
+
+
+
